@@ -1,4 +1,4 @@
-import { FacebookLogoIcon, InstagramLogoIcon, LinkedinLogoIcon } from "@phosphor-icons/react"
+import { GithubLogoIcon, InstagramLogoIcon, LinkedinLogoIcon } from "@phosphor-icons/react"
 
 function Footer() {
 	let data = new Date().getFullYear()
@@ -16,16 +16,16 @@ function Footer() {
                 </p>
 
 				<div className="flex gap-6">
-					<a href="#" target="_blank" className="hover:text-rose-400 transition cursor-pointer">
+					<a href="https://www.linkedin.com/in/cintiamdourado" target="_blank" className="hover:text-rose-400 transition cursor-pointer">
 						<LinkedinLogoIcon size={32} weight="bold"  />
 					</a>
 					
-					<a href="#" target="_blank" className="hover:text-rose-400 transition cursor-pointer">
+					<a href="https://www.instagram.com/ciidourado" target="_blank" className="hover:text-rose-400 transition cursor-pointer">
 						<InstagramLogoIcon size={32} weight="bold" className="hover:text-rose-400 transition" />
 					</a>
 
-					<a href="#" target="_blank" className="hover:text-rose-400 transition cursor-pointer">
-						<FacebookLogoIcon size={32} weight="bold" className="hover:text-rose-400 transition" />
+					<a href="https://github.com/cdourado" target="_blank" className="hover:text-rose-400 transition cursor-pointer">
+						<GithubLogoIcon size={32} weight="bold" className="hover:text-rose-400 transition" />
 					</a>
 				</div>
 
