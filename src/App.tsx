@@ -9,6 +9,7 @@ import DeletarCategoria from "./components/categoria/deletarcategoria/DeletarCat
 import ListarProdutos from "./components/produto/listarprodutos/ListarProdutos";
 import FormProduto from "./components/produto/formproduto/FormProduto";
 import DeletarProduto from "./components/produto/deletarproduto/DeletarProduto";
+import ListarProdutosPorNome from "./components/produto/listarprodutospornome/ListarProdutoPorNome";
 
 type MenuState = "closed" | "open";
 
@@ -44,6 +45,7 @@ function App() {
             <Route path="/cadproduto" element={<FormProduto />} />
             <Route path="/editarproduto/:id" element={<FormProduto />} />
             <Route path="/deletarproduto/:id" element={<DeletarProduto />} />
+            <Route path="/consultarnome/:nome" element={<ListarProdutosPorNome />} />
           </Routes>
         </div>
 
