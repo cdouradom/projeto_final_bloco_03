@@ -68,6 +68,9 @@ function Navbar({ menuState, onMenuToggle, onMenuClose }: Readonly<NavbarProps>)
 
                     {/* Menu Desktop/Tablet */}
                     <div className='items-center hidden gap-6 py-4 md:flex'>
+                        <Link to='/produtos' className='transition-colors hover:text-indigo-200'>
+                            Produtos
+                        </Link>
                         <Link to='/categorias' className='transition-colors hover:text-indigo-200'>
                             Categorias
                         </Link>
